@@ -1,0 +1,91 @@
+html,
+body,
+p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #18a9b5;
+  color: #ffffff;
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  /* center horizontally and crop the bottom 100px */
+  object-fit: cover;
+  object-position: 50% 0;
+  margin: auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "League Spartan", sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+#whatsapp {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+#whatsapp b {
+  font-weight: 800;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#nowrap-tel {
+  white-space: nowrap;
+}
+#nowrap-title {
+  display: none;
+}
+
+.social {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+.social img {
+  width: 24px;
+  height: 24px;
+  margin: 6px;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 4em;
+  }
+  #whatsapp {
+    font-size: 3em;
+  }
+  #maxwidth {
+    max-width: 600px;
+  }
+  #logo {
+    width: 350px;
+    height: 350px;
+  }
+  .social {
+    width: 64px;
+    height: 64px;
+  }
+  .social img {
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+  }
+}

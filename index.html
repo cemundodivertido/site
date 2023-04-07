@@ -1,29 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Begin Inspectlet Asynchronous Code -->
-    <script type="text/javascript">
-      (function () {
-        window.__insp = window.__insp || [];
-        __insp.push(["wid", 1395926804]);
-        var ldinsp = function () {
-          if (typeof window.__inspld != "undefined") return;
-          window.__inspld = 1;
-          var insp = document.createElement("script");
-          insp.type = "text/javascript";
-          insp.async = true;
-          insp.id = "inspsync";
-          insp.src =
-            ("https:" == document.location.protocol ? "https" : "http") +
-            "://cdn.inspectlet.com/inspectlet.js?wid=1395926804&r=" +
-            Math.floor(new Date().getTime() / 3600000);
-          var x = document.getElementsByTagName("script")[0];
-          x.parentNode.insertBefore(insp, x);
-        };
-        setTimeout(ldinsp, 0);
-      })();
-    </script>
-    <!-- End Inspectlet Asynchronous Code -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -40,99 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;800&family=Open+Sans:wght@400;800&display=swap"
       rel="stylesheet"
     />
-    <style>
-      html,
-      body,
-      p {
-        font-family: "Open Sans", Arial, Helvetica, sans-serif;
-      }
-      body {
-        background-color: #18a9b5;
-        color: #ffffff;
-        text-align: center;
-      }
-
-      #logo {
-        width: 200px;
-        height: 200px;
-        /* center horizontally and crop the bottom 100px */
-        object-fit: cover;
-        object-position: 50% 0;
-        margin: auto;
-      }
-
-      h1 {
-        color: #ffffff;
-        font-family: "League Spartan", sans-serif;
-        text-transform: uppercase;
-        margin-top: 0;
-        font-size: 3em;
-      }
-
-      #whatsapp {
-        font-family: "League Spartan", sans-serif;
-        font-weight: 400;
-        font-size: 2em;
-      }
-      #whatsapp b {
-        font-weight: 800;
-      }
-
-      #content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 100vh;
-      }
-
-      #nowrap-tel {
-        white-space: nowrap;
-      }
-      #nowrap-title {
-        display: none;
-      }
-
-      .social {
-        color: #ffffff;
-        text-decoration: none;
-        background-color: #ffffff;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        display: inline-block;
-      }
-      .social img {
-        width: 24px;
-        height: 24px;
-        margin: 6px;
-      }
-
-      @media screen and (min-width: 600px) {
-        h1 {
-          font-size: 4em;
-        }
-        #whatsapp {
-          font-size: 3em;
-        }
-        #maxwidth {
-          max-width: 600px;
-        }
-        #logo {
-          width: 350px;
-          height: 350px;
-        }
-        .social {
-          width: 64px;
-          height: 64px;
-        }
-        .social img {
-          width: 44px;
-          height: 44px;
-          margin: 10px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body id="content">
